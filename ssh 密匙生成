@@ -1,0 +1,7 @@
+djj1pt:~/Desktop/ngi20_linux_k4daily$ sudo git pull
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+
+问题处理
