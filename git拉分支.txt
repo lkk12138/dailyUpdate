@@ -1,0 +1,48 @@
+﻿=============================vm=================
+节点就是baseline
+
+task  release
+    baseline release改成CG2999
+	name:CG2999
+	select  process  stardard
+   基于邮件的baseline,找到baseline（灰信封），copy  project // 创建红信封
+红信封完成，上指定baseline（邮件中的baseline）  update一下
+创建新分支(在红信封)  打baseline  
+
+
+
+
+======================vm终端或者vnc====================
+（cd/opt/ngi20_linux_daily）odc  切到昨天的分支git checkout k226daily----git  pull--------  git   reset --hard 昨天的commitid
+新建git  branch  k228——sop------》git  checkout k228daily
+推送到远程分支   git push  origin  k228_sop
+连接自己本地：git branch --set-upstream-to=origin/k228_sop  k228_sop 
+
+
+(cd/mnt/ngi2-integrtion_4.4)bsp  
+切到sorp_k226分支----- git  pull----git reset --hard ----git  log 查看----git  branch  CG2999新建分支----git  checkout  CG2999切到这个分支----推送到远程分支   git push  origin  k228_sop
+连接自己本地：git branch --set-upstream-to=origin/k228_sop  k228_sop 
+ 
+
+
+
+
+====================vnc=======================
+vnc服务器上创建工作区  copy  project    
+crl找到路径  pwd显示路径
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
