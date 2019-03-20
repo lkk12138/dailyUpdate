@@ -1,0 +1,3 @@
+git 永久回退commit
+git revert commit号
+git push origin 远程分支
