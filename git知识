@@ -1,3 +1,4 @@
-git 永久回退commit
-git revert commit号
-git push origin 远程分支
+ 1.git 永久回退commit  git revert commit号  git push origin 远程分支
+
+2.下载在gerrit上的code代码 repo init -u ssh://gid_ctcidisw01@gerrit-sever210.asia.delphiauto.net:29418/manifest -b GEM_SOP 
+repo sync -j6 
